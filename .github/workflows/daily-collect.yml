@@ -62,15 +62,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to commit — skipping."
-            exit 0
-          fi
-
           git add knowledge/
 
-          if git diff --cached --quiet; then
-            echo "No staged changes — skipping."
+          if git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard -- knowledge/)" ]; then
+            echo "No changes to commit — skipping."
             exit 0
           fi
 
