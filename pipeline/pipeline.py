@@ -457,8 +457,12 @@ async def _analyze_single(
     if dry_run:
         logger.info(f"  [dry-run] 跳过 LLM 分析: {title[:50]}")
         fallback = description or title or ""
-        desc_text = f"内容简介：{fallback[:120]}" if fallback else ""
-        summary = f"干跑模式采集内容，尚未经过 AI 分析生成详细中文摘要。{desc_text}".strip()
+        desc_text = f"。内容简介：{fallback[:120]}" if fallback else ""
+        summary = (
+            f"干跑模式采集内容，尚未经过 AI 分析生成详细中文摘要。该内容通过自动化流水线采集，"
+            f"来源于 RSS 或 GitHub Trending，已自动标记标签和分类，"
+            f"评分和质量分析有待后续 AI 处理{desc_text}"
+        )
         return {
             **item,
             "title": title or "Untitled",
