@@ -25,7 +25,7 @@ from typing import Any
 import httpx
 import yaml
 
-from model_client import create_provider, chat_with_retry
+from model_client import create_provider, chat_with_retry, cost_tracker
 
 logger = logging.getLogger(__name__)
 
@@ -528,6 +528,7 @@ async def _analyze_single(
 async def analyze(
     items: list[dict[str, Any]],
     dry_run: bool = False,
+    provider_name: str | None = None,
 ) -> list[dict[str, Any]]:
     """分析阶段：调用 LLM 对每条内容生成摘要、评分和标签。
 
@@ -549,7 +550,7 @@ async def analyze(
     provider = None
     if not dry_run:
         try:
-            provider = create_provider()
+            provider = create_provider(provider=provider_name)
         except ValueError as e:
             logger.warning(f"无法创建 LLM Provider: {e}. 切换到干跑模式。")
             dry_run = True
@@ -805,6 +806,7 @@ async def run_pipeline(
     sources: list[str],
     limit: int,
     dry_run: bool = False,
+    provider_name: str | None = None,
 ) -> dict[str, Any]:
     """执行完整的四步流水线。
 
@@ -812,6 +814,7 @@ async def run_pipeline(
         sources: 采集来源列表。
         limit: 每个源的最大采集数量。
         dry_run: 是否为干跑模式。
+        provider_name: LLM 提供商名称（deepseek / qwen / openai）。
 
     Returns:
         流水线执行统计信息。
@@ -821,13 +824,14 @@ async def run_pipeline(
     logger.info(f"  来源: {', '.join(sources)}")
     logger.info(f"  数量限制: {limit}/源")
     logger.info(f"  干跑模式: {'是' if dry_run else '否'}")
+    logger.info(f"  LLM 提供商: {provider_name or '默认'}")
     logger.info("=" * 60)
 
     # Step 1: 采集
     raw_items = await collect(sources, limit, dry_run)
 
     # Step 2: 分析
-    analyzed_items = await analyze(raw_items, dry_run)
+    analyzed_items = await analyze(raw_items, dry_run, provider_name)
 
     # Step 3: 整理
     articles = organize(analyzed_items, dry_run)
@@ -850,6 +854,9 @@ async def run_pipeline(
     logger.info(f"  整理通过: {stats['organized']}")
     logger.info(f"  保存文件: {stats['saved']}")
     logger.info("=" * 60)
+
+    if not dry_run and cost_tracker.entries:
+        cost_tracker.report()
 
     return stats
 
@@ -900,6 +907,12 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         action="store_true",
         help="详细日志输出 (DEBUG 级别)",
     )
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default=None,
+        help="LLM 提供商 (deepseek / qwen / openai)，默认读取 LLM_PROVIDER 环境变量",
+    )
     return parser.parse_args(argv)
 
 
@@ -936,6 +949,7 @@ def main(argv: list[str] | None = None) -> None:
                 sources=sources,
                 limit=args.limit,
                 dry_run=args.dry_run,
+                provider_name=args.provider,
             )
         )
     except KeyboardInterrupt:
