@@ -5,3 +5,8 @@ __pycache__/
 .DS_Store
 *.egg-info/
 dist/
+node_modules
+package.json
+package-lock.json
+bun.lock
+.gitignore
