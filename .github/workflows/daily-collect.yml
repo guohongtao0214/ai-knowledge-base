@@ -1,0 +1,89 @@
+name: Daily Collect
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python 3.14
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER || 'deepseek' }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python pipeline/pipeline.py \
+            --sources github,rss \
+            --limit 20 \
+            --verbose
+
+      - name: Validate articles (JSON schema)
+        if: always()
+        run: |
+          if ls knowledge/articles/*.json 1>/dev/null 2>&1; then
+            python hooks/validate_json.py knowledge/articles/*.json
+          else
+            echo "No article files to validate"
+          fi
+
+      - name: Quality check articles
+        if: always()
+        run: |
+          if ls knowledge/articles/*.json 1>/dev/null 2>&1; then
+            python hooks/check_quality.py knowledge/articles/*.json
+          else
+            echo "No article files to quality check"
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit — skipping."
+            exit 0
+          fi
+
+          git add knowledge/
+
+          if git diff --cached --quiet; then
+            echo "No staged changes — skipping."
+            exit 0
+          fi
+
+          NEW_ARTICLES=$(git diff --cached --name-only --diff-filter=A \
+            -- 'knowledge/articles/*.json' | wc -l | tr -d ' ')
+          DATE_STR=$(date +%Y-%m-%d)
+
+          if [ -n "${NEW_ARTICLES}" ] && [ "${NEW_ARTICLES}" -gt 0 ]; then
+            COMMIT_MSG="[collect] ${DATE_STR}: ${NEW_ARTICLES} new article(s)"
+          else
+            COMMIT_MSG="[collect] ${DATE_STR}: update raw data & quality reports"
+          fi
+
+          echo "Commit message: ${COMMIT_MSG}"
+          git commit -m "${COMMIT_MSG}"
+          git push
