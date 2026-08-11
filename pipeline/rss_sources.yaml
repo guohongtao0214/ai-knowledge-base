@@ -1,0 +1,51 @@
+# RSS 数据源配置
+# category:
+#   comprehensive     - 综合技术
+#   research          - AI 研究
+#   company-blog      - 公司博客
+#   chinese-community - 中文社区
+
+sources:
+  # ==================== 综合技术 ====================
+  - name: Hacker News Best (AI)
+    url: https://hnrss.org/frontpage?q=AI
+    category: comprehensive
+    enabled: false          # 量太大，默认关闭
+
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/t/ai.rss
+    category: comprehensive
+    enabled: true
+
+  # ==================== AI 研究 ====================
+  - name: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: research
+    enabled: false          # 日均论文量大，默认关闭
+
+  # ==================== 公司博客 ====================
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    category: company-blog
+    enabled: true
+
+  - name: Anthropic Research
+    url: https://www.anthropic.com/research/feed
+    category: company-blog
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: company-blog
+    enabled: true
+
+  # ==================== 中文社区 ====================
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: chinese-community
+    enabled: false          # 需确认 RSS 可用性
+
+  - name: 量子位
+    url: https://www.qbitai.com/rss
+    category: chinese-community
+    enabled: false          # 需确认 RSS 可用性

@@ -1,0 +1,24 @@
+{
+  "id": "repo-firecrawl-firecrawl",
+  "title": "Firecrawl — 面向 AI Agent 的网页抓取工具，一键将网页转为 LLM 就绪的 Markdown",
+  "source": "github",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "source_id": "firecrawl/firecrawl",
+  "score": 8,
+  "highlights": [
+    "支持JavaScript渲染页面抓取，覆盖SPA等动态站点，解决传统爬虫无法处理客户端渲染的痛点",
+    "提供自托管和云服务双模式，与LangChain、Dify等主流框架原生集成，16.4万星生态成熟"
+  ],
+  "summary": "面向AI Agent的网页抓取工具，将任意网页一键转为LLM就绪的Markdown，支撑RAG和Agent联网搜索。",
+  "tags": ["RAG", "Agent", "Tool", "Web Scraping"],
+  "category": "tool",
+  "language": "zh",
+  "status": "published",
+  "fetched_at": "2026-08-10T10:00:00Z",
+  "analyzed_at": "2026-08-10T11:00:00Z",
+  "score_reason": "Agent联网搜索的刚需基础设施，16.4万星证明广泛采用，对RAG和Agent开发者有直接生产价值。虽非AI核心突破，但工具层成熟度极高。",
+  "metadata": {
+    "stars": 164624,
+    "topics": ["ai", "ai-agents", "ai-scraping", "llm", "html-to-markdown", "web-scraping", "rag"]
+  }
+}

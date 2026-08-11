@@ -1,0 +1,24 @@
+{
+  "id": "repo-lobehub-lobehub",
+  "title": "LobeHub — 首席 Agent 调度器（CAO），以 Agent 管理 Agent 实现 7×24 自动化运营",
+  "source": "github",
+  "source_url": "https://github.com/lobehub/lobehub",
+  "source_id": "lobehub/lobehub",
+  "score": 7,
+  "highlights": [
+    "首创CAO（Chief Agent Operator）概念，以Agent管理Agent，实现多Agent层级化调度",
+    "支持Claude、DeepSeek等主流模型和MCP协议，8.1万星"
+  ],
+  "summary": "首席Agent调度器（CAO），管理编排多个Agent实现7×24自动化运营，首创Agent管理Agent范式。",
+  "tags": ["Agent", "Multi-Agent", "MCP", "Orchestration"],
+  "category": "agent",
+  "language": "zh",
+  "status": "published",
+  "fetched_at": "2026-08-10T10:00:00Z",
+  "analyzed_at": "2026-08-10T11:00:00Z",
+  "score_reason": "CAO概念在Multi-Agent编排方向有差异化创新，为Agent协作提供了新的组织范式。但生态尚在早期，生产级验证不如Dify/DeerFlow。",
+  "metadata": {
+    "stars": 81463,
+    "topics": ["agent", "agent-collaboration", "ai", "chief-agent-operator", "chatgpt", "llm", "mcp", "openai", "knowledge-base"]
+  }
+}

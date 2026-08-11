@@ -1,0 +1,24 @@
+{
+  "id": "repo-hiyouga-llamafactory",
+  "title": "LLaMA Factory — 统一高效的 LLM/VLM 微调框架，ACL 2024 论文配套开源项目",
+  "source": "github",
+  "source_url": "https://github.com/hiyouga/LLaMAFactory",
+  "source_id": "hiyouga/LlamaFactory",
+  "score": 7,
+  "highlights": [
+    "支持100+主流模型（LLM+VLM）的统一微调接口，覆盖LoRA/QLoRA/RLHF等主流方法",
+    "ACL 2024顶级会议论文的开源配套项目，学术背书强，7.4万星"
+  ],
+  "summary": "统一高效的LLM/VLM微调框架，支持100+模型的LoRA/QLoRA微调与量化部署，ACL 2024论文配套开源项目。",
+  "tags": ["LLM", "Fine-tuning", "LoRA", "Paper", "Open Source"],
+  "category": "tool",
+  "language": "zh",
+  "status": "published",
+  "fetched_at": "2026-08-10T10:00:00Z",
+  "analyzed_at": "2026-08-10T11:00:00Z",
+  "score_reason": "LLM微调的一站式工具，学术+工业双重验证，对需要定制微调模型的团队有直接帮助。但微调本身是成熟技术，非新范式突破。",
+  "metadata": {
+    "stars": 73967,
+    "topics": ["agent", "ai", "llm", "fine-tuning", "lora", "qlora", "deepseek", "rlhf", "transformers"]
+  }
+}
