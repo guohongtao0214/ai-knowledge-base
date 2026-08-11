@@ -25,18 +25,21 @@ PROVIDER_CONFIGS: dict[str, dict[str, Any]] = {
         "default_model": "deepseek-chat",
         "api_key_env": "DEEPSEEK_API_KEY",
         "pricing": {"input": 0.27, "output": 1.10},
+        "cny_pricing": {"input": 1, "output": 2},
     },
     "qwen": {
         "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
         "default_model": "qwen-plus",
         "api_key_env": "DASHSCOPE_API_KEY",
         "pricing": {"input": 0.50, "output": 2.00},
+        "cny_pricing": {"input": 4, "output": 12},
     },
     "openai": {
         "base_url": "https://api.openai.com/v1",
         "default_model": "gpt-4o-mini",
         "api_key_env": "OPENAI_API_KEY",
         "pricing": {"input": 0.15, "output": 0.60},
+        "cny_pricing": {"input": 150, "output": 600},
     },
 }
 
@@ -136,6 +139,7 @@ class OpenAICompatibleProvider(LLMProvider):
         base_url: str,
         model: str | None = None,
         timeout: float = DEFAULT_TIMEOUT,
+        provider_name: str = "",
     ) -> None:
         """初始化 OpenAI 兼容提供商。
 
@@ -144,11 +148,13 @@ class OpenAICompatibleProvider(LLMProvider):
             base_url: API 基础地址（如 https://api.deepseek.com/v1）。
             model: 默认模型名称，不传则使用提供商默认模型。
             timeout: 请求超时时间（秒）。
+            provider_name: 提供商标识（deepseek / qwen / openai），用于成本追踪。
         """
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
         self.model = model
         self._timeout = timeout
+        self.provider_name = provider_name
         self._client: httpx.Client | None = None
         self._async_client: httpx.AsyncClient | None = None
 
@@ -270,6 +276,8 @@ class OpenAICompatibleProvider(LLMProvider):
             f"tokens={result.usage.total_tokens}, "
             f"elapsed={elapsed:.2f}s"
         )
+        if self.provider_name:
+            cost_tracker.record(result.usage, self.provider_name, result.model)
         return result
 
     async def async_chat(
@@ -305,6 +313,8 @@ class OpenAICompatibleProvider(LLMProvider):
             f"tokens={result.usage.total_tokens}, "
             f"elapsed={elapsed:.2f}s"
         )
+        if self.provider_name:
+            cost_tracker.record(result.usage, self.provider_name, result.model)
         return result
 
     def close(self) -> None:
@@ -385,6 +395,170 @@ def calculate_cost(usage: Usage, provider: str, model: str = "") -> float:
     input_cost = (usage.prompt_tokens / 1_000_000) * pricing["input"]
     output_cost = (usage.completion_tokens / 1_000_000) * pricing["output"]
     return round(input_cost + output_cost, 6)
+
+
+def _cost_cny(usage: Usage, provider: str) -> float:
+    """计算单个 provider 的单次调用人民币成本。
+
+    Args:
+        usage: Token 用量统计。
+        provider: 提供商名称。
+
+    Returns:
+        人民币成本，单位元。
+    """
+    config = PROVIDER_CONFIGS.get(provider)
+    if not config:
+        return 0.0
+    cny = config.get("cny_pricing", {})
+    input_cost = (usage.prompt_tokens / 1_000_000) * cny.get("input", 0)
+    output_cost = (usage.completion_tokens / 1_000_000) * cny.get("output", 0)
+    return round(input_cost + output_cost, 6)
+
+
+@dataclass
+class CostEntry:
+    """单次 API 调用的成本记录。
+
+    Attributes:
+        provider: 提供商名称。
+        model: 模型名称。
+        prompt_tokens: 提示词 Token 数。
+        completion_tokens: 生成 Token 数。
+        total_tokens: 总 Token 数。
+        cost_cny: 人民币成本。
+    """
+
+    provider: str
+    model: str = ""
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+    total_tokens: int = 0
+    cost_cny: float = 0.0
+
+
+class CostTracker:
+    """LLM 调用成本追踪器。
+
+    记录每次 API 调用的 Token 消耗，按提供商汇总人民币成本。
+
+    Attributes:
+        entries: 所有调用记录列表。
+    """
+
+    def __init__(self) -> None:
+        """初始化成本追踪器。"""
+        self.entries: list[CostEntry] = []
+
+    def record(
+        self,
+        usage: Usage,
+        provider: str,
+        model: str = "",
+    ) -> None:
+        """记录一次 API 调用。
+
+        Args:
+            usage: Token 用量统计。
+            provider: 提供商名称。
+            model: 模型名称。
+        """
+        cost = _cost_cny(usage, provider)
+        entry = CostEntry(
+            provider=provider,
+            model=model,
+            prompt_tokens=usage.prompt_tokens,
+            completion_tokens=usage.completion_tokens,
+            total_tokens=usage.total_tokens,
+            cost_cny=cost,
+        )
+        self.entries.append(entry)
+        logger.debug(
+            f"CostTracker: {provider} {usage.total_tokens} tokens, ¥{cost:.4f}"
+        )
+
+    def estimated_cost(self, provider: str | None = None) -> float:
+        """返回截至当前的总成本估算（元）。
+
+        Args:
+            provider: 指定提供商筛选，不传则返回全部汇总。
+
+        Returns:
+            总成本，单位元。
+        """
+        if provider:
+            entries = [e for e in self.entries if e.provider == provider]
+        else:
+            entries = self.entries
+        return round(sum(e.cost_cny for e in entries), 6)
+
+    def report(self, provider: str | None = None) -> str:
+        """生成成本报告。
+
+        Args:
+            provider: 指定提供商筛选，不传则按全部汇总。
+
+        Returns:
+            格式化的成本报告字符串。
+        """
+        if provider:
+            entries = [e for e in self.entries if e.provider == provider]
+            providers = {provider}
+        else:
+            entries = list(self.entries)
+            providers = sorted({e.provider for e in entries})
+
+        if not entries:
+            return "CostTracker: 无调用记录"
+
+        lines = [
+            "=" * 60,
+            "LLM 调用成本报告",
+            "=" * 60,
+        ]
+
+        for prov in providers:
+            prov_entries = [e for e in entries if e.provider == prov]
+            call_count = len(prov_entries)
+            total_tokens = sum(e.total_tokens for e in prov_entries)
+            prompt_sum = sum(e.prompt_tokens for e in prov_entries)
+            completion_sum = sum(e.completion_tokens for e in prov_entries)
+            total_cny = sum(e.cost_cny for e in prov_entries)
+
+            cny_pricing = PROVIDER_CONFIGS.get(prov, {}).get("cny_pricing", {})
+            input_price = cny_pricing.get("input", 0)
+            output_price = cny_pricing.get("output", 0)
+
+            lines.append(f"\n  [{prov}]")
+            lines.append(f"    调用次数:   {call_count}")
+            lines.append(
+                f"    输入 Token:  {prompt_sum:,} (¥{input_price}/1M)"
+            )
+            lines.append(
+                f"    输出 Token:  {completion_sum:,} (¥{output_price}/1M)"
+            )
+            lines.append(f"    总 Token:    {total_tokens:,}")
+            lines.append(f"    成本:        ¥{total_cny:.4f}")
+
+        grand_total = sum(e.cost_cny for e in entries)
+        grand_tokens = sum(e.total_tokens for e in entries)
+        lines.append(f"\n  {'─' * 40}")
+        lines.append(f"  总计调用:   {len(entries)} 次")
+        lines.append(f"  总计 Token:  {grand_tokens:,}")
+        lines.append(f"  总计成本:    ¥{grand_total:.4f}")
+        lines.append("=" * 60)
+
+        report_text = "\n".join(lines)
+        logger.info(report_text)
+        return report_text
+
+    def reset(self) -> None:
+        """清空所有调用记录。"""
+        self.entries.clear()
+
+
+# 全局单例
+cost_tracker = CostTracker()
 
 
 # ─────────────────────────── 重试与便捷函数 ───────────────────────────
@@ -484,6 +658,7 @@ def quick_chat(
         api_key=api_key,
         base_url=config["base_url"],
         model=model or config["default_model"],
+        provider_name=provider_name,
     )
     try:
         return client.chat(messages)
@@ -528,7 +703,59 @@ def create_provider(
         api_key=api_key,
         base_url=config["base_url"],
         model=model or config["default_model"],
+        provider_name=provider_name,
     )
+
+
+def chat(
+    prompt: str,
+    system: str | None = None,
+    provider: str | None = None,
+    model: str | None = None,
+) -> dict[str, Any]:
+    """简洁调用接口，返回 dict 格式便于直接使用。
+
+    Args:
+        prompt: 用户提示词。
+        system: 系统提示词（可选）。
+        provider: 提供商名称，默认读取 LLM_PROVIDER 环境变量。
+        model: 模型名称，不传则使用提供商默认模型。
+
+    Returns:
+        包含 content、usage、model、cost_cny 等字段的字典。
+
+    Example:
+        >>> from model_client import chat, tracker
+        >>> result = chat("用一句话介绍 Python")
+        >>> print(result["content"])
+        >>> tracker.report()
+    """
+    response = quick_chat(
+        prompt=prompt,
+        system=system,
+        provider=provider,
+        model=model,
+    )
+    return {
+        "content": response.content,
+        "model": response.model,
+        "usage": {
+            "prompt_tokens": response.usage.prompt_tokens,
+            "completion_tokens": response.usage.completion_tokens,
+            "total_tokens": response.usage.total_tokens,
+        },
+        "finish_reason": response.finish_reason,
+        "cost_cny": round(
+            cost_tracker.entries[-1].cost_cny
+            if cost_tracker.entries
+            else _cost_cny(response.usage, provider or "deepseek"),
+            6,
+        ),
+    }
+
+
+# 快捷别名
+tracker = cost_tracker
 
 
 # ─────────────────────────── 测试代码 ───────────────────────────
@@ -592,3 +819,15 @@ if __name__ == "__main__":
         print(f"  [跳过] API Key 未配置: {e}")
     except Exception as e:
         print(f"  [错误] {type(e).__name__}: {e}")
+
+    print()
+    print("=" * 60)
+    print("测试 4: CostTracker")
+    print("=" * 60)
+    tracker = CostTracker()
+    tracker.record(Usage(prompt_tokens=3000, completion_tokens=800, total_tokens=3800), "deepseek", "deepseek-chat")
+    tracker.record(Usage(prompt_tokens=500, completion_tokens=200, total_tokens=700), "deepseek", "deepseek-chat")
+    tracker.record(Usage(prompt_tokens=2000, completion_tokens=1500, total_tokens=3500), "qwen", "qwen-plus")
+    tracker.record(Usage(prompt_tokens=100, completion_tokens=300, total_tokens=400), "openai", "gpt-4o-mini")
+    report = tracker.report()
+    print(report)
