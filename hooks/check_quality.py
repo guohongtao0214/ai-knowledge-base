@@ -168,7 +168,7 @@ def score_tech_depth(data: dict[str, Any]) -> DimensionScore:
 ID_PATTERN = re.compile(r"^[a-z]+-\d{8}-\d{3}$")
 URL_PATTERN = re.compile(r"^https?://\S+$")
 ISO8601_PATTERN = re.compile(
-    r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})?$"
+    r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})?$"
 )
 
 FORMAT_CHECKS = {

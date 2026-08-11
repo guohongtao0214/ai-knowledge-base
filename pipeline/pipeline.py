@@ -70,8 +70,17 @@ AI_KEYWORDS = re.compile(
     re.IGNORECASE,
 )
 
-# ─────────────────────────── Article Schema ───────────────────────────
 
+def _iso_now() -> str:
+    """返回当前 UTC 时间的 ISO 8601 格式字符串（秒级精度）。
+
+    Returns:
+        如 "2026-08-11T14:00:00Z"。
+    """
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+# ─────────────────────────── Article Schema ───────────────────────────
 ARTICLE_FIELDS = {
     "id": str,
     "title": str,
@@ -165,7 +174,7 @@ def _fetch_github_trending(limit: int) -> list[dict[str, Any]]:
                         "language": item.get("language", ""),
                         "topics": item.get("topics", []),
                     },
-                    "fetched_at": datetime.now(timezone.utc).isoformat(),
+                    "fetched_at": _iso_now(),
                     "published_at": item.get("created_at", ""),
                 }
             )
@@ -187,7 +196,7 @@ def _parse_rss_feed(text: str, source_config: dict[str, Any]) -> list[dict[str, 
         解析后的条目列表。
     """
     items: list[dict[str, Any]] = []
-    fetched_at = datetime.now(timezone.utc).isoformat()
+    fetched_at = _iso_now()
 
     item_pattern = re.compile(r"<(item|entry)>(.*?)</\1>", re.DOTALL)
 
@@ -474,7 +483,7 @@ async def _analyze_single(
             "score": 6,
             "highlights": ["干跑模式未进行 LLM 分析"],
             "score_reason": "干跑模式默认评分",
-            "analyzed_at": datetime.now(timezone.utc).isoformat(),
+            "analyzed_at": _iso_now(),
         }
 
     messages = [
@@ -508,7 +517,7 @@ async def _analyze_single(
     result["score_reason"] = str(analysis.get("score_reason", ""))[:100]
     result["language"] = "zh"
     result["status"] = "draft"
-    result["analyzed_at"] = datetime.now(timezone.utc).isoformat()
+    result["analyzed_at"] = _iso_now()
 
     if result["category"] not in VALID_CATEGORIES:
         result["category"] = "tool"
@@ -710,7 +719,7 @@ def organize(
             "category": item.get("category", "tool"),
             "language": item.get("language", "zh"),
             "status": "draft",
-            "fetched_at": item.get("fetched_at", datetime.now(timezone.utc).isoformat()),
+            "fetched_at": item.get("fetched_at", _iso_now()),
             "published_at": item.get("published_at", ""),
             "analyzed_at": item.get("analyzed_at", ""),
             "metadata": item.get("metadata", {}),
