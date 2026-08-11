@@ -44,6 +44,9 @@ VALID_TAGS: set[str] = {
     "MCP", "Vibecoding", "Low-Code", "Self-Hosted", "OSINT",
     "Orchestration", "Multi-Agent", "SuperAgent", "Autonomous",
     "Token-Efficient", "Microkernel",
+    # 通用
+    "AI", "Machine Learning", "Deep Learning", "NLP", "Computer Vision",
+    "Python", "TypeScript", "Rust", "Go",
 }
 
 

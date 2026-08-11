@@ -457,18 +457,18 @@ async def _analyze_single(
     if dry_run:
         logger.info(f"  [dry-run] 跳过 LLM 分析: {title[:50]}")
         fallback = description or title or ""
-        summary = f"[dry-run] {fallback[:150]}" if fallback else f"[dry-run] 暂无详细描述: {title[:100]}"
+        summary = f"干跑模式采集: {fallback[:150]}" if fallback else f"干跑模式采集，暂无详细描述，标题为: {title[:100]}"
         return {
             **item,
             "title": title or "Untitled",
             "summary": summary,
-            "tags": ["AI"],
+            "tags": ["AI", "Tool", "Open Source"],
             "category": "tool",
             "language": "zh",
             "status": "draft",
-            "score": 5,
-            "highlights": ["[dry-run] 未进行实际分析"],
-            "score_reason": "[dry-run]",
+            "score": 6,
+            "highlights": ["干跑模式未进行 LLM 分析"],
+            "score_reason": "干跑模式默认评分",
             "analyzed_at": datetime.now(timezone.utc).isoformat(),
         }
 
