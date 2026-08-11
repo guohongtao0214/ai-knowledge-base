@@ -1,0 +1,41 @@
+{
+  "id": "github-20260810-003",
+  "title": "Dify — 一站式 LLM 应用开发平台，可视化编排 Agent 工作流与 RAG 管道",
+  "source": "github",
+  "source_url": "https://github.com/langgenius/dify",
+  "source_id": "langgenius/dify",
+  "score": 8,
+  "highlights": [
+    "可视化拖拽编排Agent工作流，非开发者也可构建复杂LLM应用",
+    "内置RAG管道与MCP协议支持，集成丰富模型与工具生态，15.2万星"
+  ],
+  "summary": "一站式LLM应用开发平台，可视化编排Agent工作流与RAG管道，降低AI应用构建门槛。",
+  "tags": [
+    "Agent",
+    "RAG",
+    "Low-Code",
+    "Platform",
+    "MCP"
+  ],
+  "category": "product",
+  "language": "zh",
+  "status": "published",
+  "fetched_at": "2026-08-10T10:00:00Z",
+  "analyzed_at": "2026-08-10T11:00:00Z",
+  "score_reason": "低代码Agent开发平台的标杆，直接降低团队构建Agent应用的门槛和周期。生产级成熟度，15.2万星验证，可开箱即用。",
+  "metadata": {
+    "stars": 151959,
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai",
+      "llm",
+      "rag",
+      "mcp",
+      "gpt",
+      "openai",
+      "workflow"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "github-20260810-006",
+  "title": "LangChain — 业界标杆 Agent 工程框架，LangGraph 实现有状态工作流编排",
+  "source": "github",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "source_id": "langchain-ai/langchain",
+  "score": 7,
+  "highlights": [
+    "行业事实标准框架，14.4万星，LangGraph使Agent工作流从无状态链式调用升级为有状态图编排",
+    "拥有最广泛的生态集成，几乎覆盖所有LLM提供商和工具链，学习资源最丰富"
+  ],
+  "summary": "业界标杆Agent工程框架，提供LLM应用全栈开发能力，LangGraph子项目实现有状态工作流编排。",
+  "tags": [
+    "Agent",
+    "Framework",
+    "RAG",
+    "LangChain",
+    "LangGraph"
+  ],
+  "category": "agent",
+  "language": "zh",
+  "status": "published",
+  "fetched_at": "2026-08-10T10:00:00Z",
+  "analyzed_at": "2026-08-10T11:00:00Z",
+  "score_reason": "Agent开发的事实标准，LangGraph解决了关键的有状态编排问题。但框架封装过重、抽象层过多，新一代轻量替代品正分流开发者。",
+  "metadata": {
+    "stars": 143876,
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "framework",
+      "langchain",
+      "langgraph",
+      "llm",
+      "rag",
+      "openai",
+      "python"
+    ]
+  }
+}

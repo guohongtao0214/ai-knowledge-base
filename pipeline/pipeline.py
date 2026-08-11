@@ -456,10 +456,12 @@ async def _analyze_single(
 
     if dry_run:
         logger.info(f"  [dry-run] 跳过 LLM 分析: {title[:50]}")
+        fallback = description or title or ""
+        summary = f"[dry-run] {fallback[:150]}" if fallback else f"[dry-run] 暂无详细描述: {title[:100]}"
         return {
             **item,
             "title": title or "Untitled",
-            "summary": f"[dry-run] {description[:150]}" if description else "[dry-run]",
+            "summary": summary,
             "tags": ["AI"],
             "category": "tool",
             "language": "zh",
@@ -490,7 +492,10 @@ async def _analyze_single(
 
     result = dict(item)
     result["title"] = analysis.get("title", title)
-    result["summary"] = str(analysis.get("summary", description))[:200]
+    raw_summary = str(analysis.get("summary", "") or description or "")
+    if len(raw_summary.strip()) < 20:
+        raw_summary = f"{raw_summary}。{title}。" if raw_summary.strip() else title
+    result["summary"] = raw_summary[:200]
     result["tags"] = analysis.get("tags", [])
     result["category"] = analysis.get("category", "tool")
     result["score"] = analysis.get("score")
@@ -616,6 +621,10 @@ def _validate_article(article: dict[str, Any]) -> list[str]:
     cat = article.get("category")
     if cat and cat not in VALID_CATEGORIES:
         errors.append(f"无效分类 '{cat}'，合法值: {VALID_CATEGORIES}")
+
+    summary = article.get("summary", "")
+    if isinstance(summary, str) and len(summary.strip()) < 20:
+        errors.append(f"summary 字数不足: 当前 {len(summary.strip())} 字，最少 20 字")
 
     return errors
 
