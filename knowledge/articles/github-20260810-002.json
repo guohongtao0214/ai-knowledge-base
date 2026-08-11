@@ -1,5 +1,5 @@
 {
-  "id": "repo-bytedance-deer-flow",
+  "id": "github-20260810-002",
   "title": "DeerFlow — 字节跳动开源的长时域 SuperAgent 框架，五层架构覆盖 Agent 全生命周期",
   "source": "github",
   "source_url": "https://github.com/bytedance/deer-flow",
@@ -11,7 +11,13 @@
     "支持长时域任务（分钟到小时级），直击当前Agent短时运行的核心瓶颈，7.9万星且增长迅猛"
   ],
   "summary": "字节跳动开源的长时域SuperAgent框架，集成沙箱/记忆/工具/技能/子Agent五层架构，可处理分钟到小时级复杂任务。",
-  "tags": ["Agent", "Multi-Agent", "ByteDance", "SuperAgent", "Framework"],
+  "tags": [
+    "Agent",
+    "Multi-Agent",
+    "ByteDance",
+    "SuperAgent",
+    "Framework"
+  ],
   "category": "agent",
   "language": "zh",
   "status": "published",
@@ -20,6 +26,16 @@
   "score_reason": "大厂背书的顶级Agent框架，2.0重写后架构全面且先进，长时域能力打破当前Agent短板。字节开源生态效应将带动工具链成熟，是本周最有战略价值的项目。",
   "metadata": {
     "stars": 79661,
-    "topics": ["agent", "agentic-framework", "ai", "ai-agents", "deep-research", "llm", "multi-agent", "superagent", "python"]
+    "topics": [
+      "agent",
+      "agentic-framework",
+      "ai",
+      "ai-agents",
+      "deep-research",
+      "llm",
+      "multi-agent",
+      "superagent",
+      "python"
+    ]
   }
 }

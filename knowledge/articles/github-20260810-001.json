@@ -1,5 +1,5 @@
 {
-  "id": "repo-Significant-Gravitas-AutoGPT",
+  "id": "github-20260810-001",
   "title": "AutoGPT — 老牌自主 AI Agent 框架，支持 GPT/Claude/Llama 等多模型后端",
   "source": "github",
   "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
@@ -10,7 +10,12 @@
     "支持GPT、Claude、Llama等多模型后端，模型切换无锁定"
   ],
   "summary": "老牌自主AI Agent框架，支持GPT/Claude/Llama等多模型，早期引领Agent方向但近年创新放缓。",
-  "tags": ["Agent", "Autonomous", "Framework", "Open Source"],
+  "tags": [
+    "Agent",
+    "Autonomous",
+    "Framework",
+    "Open Source"
+  ],
   "category": "agent",
   "language": "zh",
   "status": "published",
@@ -19,6 +24,16 @@
   "score_reason": "Agent领域的先驱，历史地位重要，但近年创新放缓被DeerFlow、hermes-agent等新一代框架超越，适合了解Agent演进史而非直接采用。",
   "metadata": {
     "stars": 186485,
-    "topics": ["agentic-ai", "agents", "ai", "autonomous-agents", "gpt", "llm", "openai", "claude", "python"]
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "autonomous-agents",
+      "gpt",
+      "llm",
+      "openai",
+      "claude",
+      "python"
+    ]
   }
 }

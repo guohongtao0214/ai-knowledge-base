@@ -1,5 +1,5 @@
 {
-  "id": "repo-Leonxlnx-taste-skill",
+  "id": "github-20260810-011",
   "title": "Taste Skill — 提升 AI 生成内容品味与审美的技能工具，Vibecoding 社区热门",
   "source": "github",
   "source_url": "https://github.com/Leonxlnx/taste-skill",
@@ -10,7 +10,13 @@
     "7.5万星，Vibecoding社区自发验证了真实需求，定位精准"
   ],
   "summary": "提升AI生成内容品味与审美的技能工具，避免AI产出千篇一律，Vibecoding社区热门。",
-  "tags": ["Agent", "Skill", "Vibecoding", "Claude Code", "Design"],
+  "tags": [
+    "Agent",
+    "Skill",
+    "Vibecoding",
+    "Claude Code",
+    "Design"
+  ],
   "category": "tool",
   "language": "zh",
   "status": "published",
@@ -19,6 +25,16 @@
   "score_reason": "内容品味提升属于锦上添花的优化层，非Agent核心能力。方向有趣但技术深度有限，Vibecoding场景偏窄。",
   "metadata": {
     "stars": 74870,
-    "topics": ["agent", "ai", "claude", "claude-code", "skill", "skills", "coding", "design", "vibecoding"]
+    "topics": [
+      "agent",
+      "ai",
+      "claude",
+      "claude-code",
+      "skill",
+      "skills",
+      "coding",
+      "design",
+      "vibecoding"
+    ]
   }
 }

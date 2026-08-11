@@ -1,5 +1,5 @@
 {
-  "id": "repo-NousResearch-hermes-agent",
+  "id": "github-20260810-005",
   "title": "Hermes Agent — 具备自学习闭环的通用 Agent 框架，支持多模型与 7 种终端后端",
   "source": "github",
   "source_url": "https://github.com/NousResearch/hermes-agent",
@@ -11,7 +11,13 @@
     "单一网关进程统一6个IM渠道（Telegram/Discord/Slack/WhatsApp/Signal/CLI），22.8万星社区规模最大"
   ],
   "summary": "具备自学习闭环的通用Agent框架，从经验中自动创建和改进技能，支持多模型与7种终端后端，可运行于$5 VPS到GPU集群。",
-  "tags": ["Agent", "Framework", "Multi-Model", "MCP", "Nous Research"],
+  "tags": [
+    "Agent",
+    "Framework",
+    "Multi-Model",
+    "MCP",
+    "Nous Research"
+  ],
   "category": "agent",
   "language": "zh",
   "status": "published",
@@ -20,6 +26,17 @@
   "score_reason": "自学习闭环是Agent架构中罕见的自我进化能力，7种终端后端覆盖从边缘到云的全场景，社区规模最大。对Agent开发者有直接参考价值，但仍属框架层创新。",
   "metadata": {
     "stars": 228217,
-    "topics": ["ai", "ai-agent", "ai-agents", "claude", "chatgpt", "llm", "openai", "claude-code", "moltbot", "openclaw"]
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "claude",
+      "chatgpt",
+      "llm",
+      "openai",
+      "claude-code",
+      "moltbot",
+      "openclaw"
+    ]
   }
 }

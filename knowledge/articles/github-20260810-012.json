@@ -1,5 +1,5 @@
 {
-  "id": "repo-koala73-worldmonitor",
+  "id": "github-20260810-012",
   "title": "WorldMonitor — AI 驱动的全球态势感知仪表盘，将 Agent 应用于 OSINT 开源情报领域",
   "source": "github",
   "source_url": "https://github.com/koala73/worldmonitor",
@@ -10,7 +10,13 @@
     "集成MCP协议实现工具扩展，8.0万星在垂直领域增速显著"
   ],
   "summary": "AI驱动的全球态势感知仪表盘，实时聚合新闻与地缘政治信息，将Agent应用于OSINT领域。",
-  "tags": ["Agent", "OSINT", "Dashboard", "MCP", "Monitoring"],
+  "tags": [
+    "Agent",
+    "OSINT",
+    "Dashboard",
+    "MCP",
+    "Monitoring"
+  ],
   "category": "product",
   "language": "zh",
   "status": "published",
@@ -19,6 +25,15 @@
   "score_reason": "应用场景偏特定领域（OSINT/地缘政治），与团队核心Agent+RAG方向关联度弱。有跨领域参考价值但非直接相关，不适合投入资源跟进。",
   "metadata": {
     "stars": 80392,
-    "topics": ["agent", "ai", "dashboard", "geopolitics", "mcp", "osint", "monitoring", "news"]
+    "topics": [
+      "agent",
+      "ai",
+      "dashboard",
+      "geopolitics",
+      "mcp",
+      "osint",
+      "monitoring",
+      "news"
+    ]
   }
 }
