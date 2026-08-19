@@ -1,0 +1,28 @@
+{
+  "id": "rss-20260819-002",
+  "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+  "source": "rss",
+  "source_url": "https://huggingface.co/blog/multi-vector-encoder",
+  "source_id": "https://huggingface.co/blog/multi-vector-encoder",
+  "summary": "干跑模式采集内容，尚未经过 AI 分析生成详细中文摘要。该内容通过自动化流水线采集，来源于 RSS 或 GitHub Trending，已自动标记标签和分类，评分和质量分析有待后续 AI 处理。内容简介：Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+  "tags": [
+    "AI",
+    "Tool",
+    "Open Source"
+  ],
+  "category": "tool",
+  "language": "zh",
+  "status": "draft",
+  "fetched_at": "2026-08-19T08:42:09Z",
+  "published_at": "2026-08-19T08:42:09Z",
+  "analyzed_at": "2026-08-19T08:42:09Z",
+  "metadata": {
+    "rss_source": "Hugging Face Blog",
+    "rss_category": "company-blog"
+  },
+  "score": 6,
+  "highlights": [
+    "干跑模式未进行 LLM 分析"
+  ],
+  "score_reason": "干跑模式默认评分"
+}
