@@ -1,0 +1,422 @@
+[
+  {
+    "source": "rss",
+    "source_id": "https://www.youtube.com/watch?v=ePsQksj99LM",
+    "source_url": "https://www.youtube.com/watch?v=ePsQksj99LM",
+    "title": "The Limits of AI (1985)",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://youtu.be/87DyyMV0kCY",
+    "source_url": "https://youtu.be/87DyyMV0kCY",
+    "title": "The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+    "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+    "title": "Categorization with NLP",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+    "source_url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+    "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+    "source_url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+    "title": "Categorization with NLP",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+    "source_url": "https://www.notion.com/blog/two-years-of-vector-search-at-notion",
+    "title": "Two years of vector search at Notion: 10x scale, 1/10th cost",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://gwern.net/llm-catapult",
+    "source_url": "https://gwern.net/llm-catapult",
+    "title": "Human-like Neural Nets by Catapulting",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+    "source_url": "https://mitpress.mit.edu/9780262052481/inventing-eliza/",
+    "title": "Inventing ELIZA - How the First Chatbot Shaped the Future of AI",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://ieeexplore.ieee.org/document/11475847/",
+    "source_url": "https://ieeexplore.ieee.org/document/11475847/",
+    "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+    "source_url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+    "title": "Convolutional Neural Networks in APL (2019)",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "title": "How Much Memory Does Your Agent Actually Need?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/multi-vector-encoder",
+    "source_url": "https://huggingface.co/blog/multi-vector-encoder",
+    "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "source_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "source_url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/muse-glimmer",
+    "source_url": "https://huggingface.co/blog/muse-glimmer",
+    "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "source_url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+    "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "source_url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+    "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/real-world-voiceeq",
+    "source_url": "https://huggingface.co/blog/real-world-voiceeq",
+    "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "source_url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/skypilot-hf-storage",
+    "source_url": "https://huggingface.co/blog/skypilot-hf-storage",
+    "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+    "source_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+    "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "source_url": "https://huggingface.co/blog/ibm-research/scarfbench",
+    "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/allenai/discoformer",
+    "source_url": "https://huggingface.co/blog/allenai/discoformer",
+    "title": "DiScoFormer: One transformer for density and score, across distributions",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/vllm-jobs",
+    "source_url": "https://huggingface.co/blog/vllm-jobs",
+    "title": "Run a vLLM Server on HF Jobs in One Command",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "source_url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+    "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/huggingface-hub-release-ci",
+    "source_url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+    "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/cross-origin-storage",
+    "source_url": "https://huggingface.co/blog/cross-origin-storage",
+    "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "source_url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+    "title": "MosaicLeaks: Can your research agent keep a secret?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/peft-beyond-lora",
+    "source_url": "https://huggingface.co/blog/peft-beyond-lora",
+    "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-08-22T08:35:04Z",
+    "published_at": "2026-08-22T08:35:04Z"
+  }
+]
