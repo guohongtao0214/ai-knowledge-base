@@ -1,0 +1,487 @@
+[
+  {
+    "source": "github",
+    "source_id": "obra/superpowers",
+    "source_url": "https://github.com/obra/superpowers",
+    "title": "superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "metadata": {
+      "stars": 281109,
+      "forks": 25184,
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2025-10-09T19:45:18Z"
+  },
+  {
+    "source": "github",
+    "source_id": "affaan-m/ECC",
+    "source_url": "https://github.com/affaan-m/ECC",
+    "title": "ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "metadata": {
+      "stars": 246718,
+      "forks": 37180,
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2026-01-18T00:51:51Z"
+  },
+  {
+    "source": "github",
+    "source_id": "mattpocock/skills",
+    "source_url": "https://github.com/mattpocock/skills",
+    "title": "skills",
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "metadata": {
+      "stars": 246209,
+      "forks": 20900,
+      "language": "Shell",
+      "topics": []
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2026-02-03T11:15:53Z"
+  },
+  {
+    "source": "github",
+    "source_id": "NousResearch/hermes-agent",
+    "source_url": "https://github.com/NousResearch/hermes-agent",
+    "title": "hermes-agent",
+    "description": "The agent that grows with you",
+    "metadata": {
+      "stars": 240523,
+      "forks": 49243,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "nous-research",
+        "openai"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2025-07-22T22:22:28Z"
+  },
+  {
+    "source": "github",
+    "source_id": "multica-ai/andrej-karpathy-skills",
+    "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "title": "andrej-karpathy-skills",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "metadata": {
+      "stars": 209811,
+      "forks": 21335,
+      "language": null,
+      "topics": []
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2026-01-27T03:53:13Z"
+  },
+  {
+    "source": "github",
+    "source_id": "anomalyco/opencode",
+    "source_url": "https://github.com/anomalyco/opencode",
+    "title": "opencode",
+    "description": "The open source coding agent.",
+    "metadata": {
+      "stars": 203422,
+      "forks": 26535,
+      "language": "TypeScript",
+      "topics": []
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2025-04-30T20:08:00Z"
+  },
+  {
+    "source": "github",
+    "source_id": "n8n-io/n8n",
+    "source_url": "https://github.com/n8n-io/n8n",
+    "title": "n8n",
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "metadata": {
+      "stars": 203218,
+      "forks": 60531,
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2019-06-22T09:24:21Z"
+  },
+  {
+    "source": "github",
+    "source_id": "ultraworkers/claw-code",
+    "source_url": "https://github.com/ultraworkers/claw-code",
+    "title": "claw-code",
+    "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+    "metadata": {
+      "stars": 195162,
+      "forks": 108744,
+      "language": "Rust",
+      "topics": []
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2026-03-31T08:58:08Z"
+  },
+  {
+    "source": "github",
+    "source_id": "Significant-Gravitas/AutoGPT",
+    "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "title": "AutoGPT",
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "metadata": {
+      "stars": 187098,
+      "forks": 46039,
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "artificial-intelligence",
+        "autonomous-agents",
+        "claude",
+        "gpt",
+        "llama-api",
+        "llm",
+        "openai",
+        "python"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2023-03-16T09:21:07Z"
+  },
+  {
+    "source": "github",
+    "source_id": "ollama/ollama",
+    "source_url": "https://github.com/ollama/ollama",
+    "title": "ollama",
+    "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "metadata": {
+      "stars": 180034,
+      "forks": 17668,
+      "language": "Go",
+      "topics": [
+        "deepseek",
+        "gemma",
+        "gemma3",
+        "glm",
+        "go",
+        "golang",
+        "gpt-oss",
+        "llama",
+        "llama3",
+        "llm",
+        "llms",
+        "minimax",
+        "mistral",
+        "ollama",
+        "qwen"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2023-06-26T19:39:32Z"
+  },
+  {
+    "source": "github",
+    "source_id": "anthropics/skills",
+    "source_url": "https://github.com/anthropics/skills",
+    "title": "skills",
+    "description": "Public repository for Agent Skills",
+    "metadata": {
+      "stars": 173417,
+      "forks": 20590,
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2025-09-22T15:53:31Z"
+  },
+  {
+    "source": "github",
+    "source_id": "f/prompts.chat",
+    "source_url": "https://github.com/f/prompts.chat",
+    "title": "prompts.chat",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+    "metadata": {
+      "stars": 168718,
+      "forks": 21746,
+      "language": "HTML",
+      "topics": [
+        "ai",
+        "artificial-intelligence",
+        "awesome-list",
+        "chatgpt",
+        "chatgpt-prompts",
+        "claude",
+        "gemini",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "machine-learning",
+        "nextjs",
+        "open-source",
+        "openai",
+        "prompt-engineering",
+        "prompts",
+        "prompts-chat",
+        "typescript"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2022-12-05T13:54:13Z"
+  },
+  {
+    "source": "github",
+    "source_id": "huggingface/transformers",
+    "source_url": "https://github.com/huggingface/transformers",
+    "title": "transformers",
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "metadata": {
+      "stars": 164740,
+      "forks": 34432,
+      "language": "Python",
+      "topics": [
+        "audio",
+        "deep-learning",
+        "deepseek",
+        "gemma",
+        "glm",
+        "hacktoberfest",
+        "llm",
+        "machine-learning",
+        "model-hub",
+        "natural-language-processing",
+        "nlp",
+        "pretrained-models",
+        "python",
+        "pytorch",
+        "pytorch-transformers",
+        "qwen",
+        "speech-recognition",
+        "transformer",
+        "vlm"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2018-10-29T13:56:00Z"
+  },
+  {
+    "source": "github",
+    "source_id": "Snailclimb/JavaGuide",
+    "source_url": "https://github.com/Snailclimb/JavaGuide",
+    "title": "JavaGuide",
+    "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+    "metadata": {
+      "stars": 158242,
+      "forks": 46156,
+      "language": "JavaScript",
+      "topics": [
+        "agent",
+        "ai",
+        "context-engineering",
+        "deepseek",
+        "interview",
+        "java",
+        "mcp",
+        "mysql",
+        "redis",
+        "redisson",
+        "skills",
+        "springai",
+        "system-design"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2018-05-07T13:27:00Z"
+  },
+  {
+    "source": "github",
+    "source_id": "langgenius/dify",
+    "source_url": "https://github.com/langgenius/dify",
+    "title": "dify",
+    "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+    "metadata": {
+      "stars": 154318,
+      "forks": 24395,
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "deepseek",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "python",
+        "skills",
+        "workflow"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2023-04-12T07:40:24Z"
+  },
+  {
+    "source": "github",
+    "source_id": "langflow-ai/langflow",
+    "source_url": "https://github.com/langflow-ai/langflow",
+    "title": "langflow",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "metadata": {
+      "stars": 154181,
+      "forks": 10010,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2023-02-08T22:28:03Z"
+  },
+  {
+    "source": "github",
+    "source_id": "open-webui/open-webui",
+    "source_url": "https://github.com/open-webui/open-webui",
+    "title": "open-webui",
+    "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+    "metadata": {
+      "stars": 150796,
+      "forks": 22033,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "llm",
+        "llm-ui",
+        "llm-webui",
+        "llms",
+        "mcp",
+        "ollama",
+        "ollama-webui",
+        "open-webui",
+        "openai",
+        "openapi",
+        "rag",
+        "self-hosted",
+        "ui",
+        "webui"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2023-10-06T22:08:27Z"
+  },
+  {
+    "source": "github",
+    "source_id": "msitarzewski/agency-agents",
+    "source_url": "https://github.com/msitarzewski/agency-agents",
+    "title": "agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "metadata": {
+      "stars": 149842,
+      "forks": 24141,
+      "language": "Shell",
+      "topics": []
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2025-10-13T12:12:29Z"
+  },
+  {
+    "source": "github",
+    "source_id": "langchain-ai/langchain",
+    "source_url": "https://github.com/langchain-ai/langchain",
+    "title": "langchain",
+    "description": "The agent engineering platform.",
+    "metadata": {
+      "stars": 145570,
+      "forks": 24294,
+      "language": "Python",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag",
+        "typescript"
+      ]
+    },
+    "fetched_at": "2026-09-03T12:42:46Z",
+    "published_at": "2022-10-17T02:58:36Z"
+  }
+]
