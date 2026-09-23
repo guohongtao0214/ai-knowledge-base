@@ -1,0 +1,478 @@
+[
+  {
+    "source": "rss",
+    "source_id": "https://arxiv.org/abs/2609.22978",
+    "source_url": "https://arxiv.org/abs/2609.22978",
+    "title": "DeepSeek Elastic Compute (DSec): Sandbox Infrastructure for Effective Agentic Training at Scale",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://github.com/volotat/mini-AGI/",
+    "source_url": "https://github.com/volotat/mini-AGI/",
+    "title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "source_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://spectrum.ieee.org/llms-for-chip-design",
+    "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://taggart-tech.com/lying/",
+    "source_url": "https://taggart-tech.com/lying/",
+    "title": "Model Training Incidents are Negligence",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://github.com/enactic/OpenArm",
+    "source_url": "https://github.com/enactic/OpenArm",
+    "title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "source_url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "title": "Why don’t machine learning research agents overfit?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://eiln.github.io/posts/ane.html",
+    "source_url": "https://eiln.github.io/posts/ane.html",
+    "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://entropicthoughts.com/better-ai-comment-classifier",
+    "source_url": "https://entropicthoughts.com/better-ai-comment-classifier",
+    "title": "Better AI code comment detector",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://scottaaronson.blog/?p=10046",
+    "source_url": "https://scottaaronson.blog/?p=10046",
+    "title": "LLMs and self-referentiality",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+    "source_url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+    "title": "US government backs OpenAI in New York Times copyright case",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+    "source_url": "https://news.wsu.edu/news/2026/08/24/researchers-use-ai-to-democratize-3d-printing-of-crucial-metal-alloy/",
+    "title": "Researchers use AI to ‘democratize’ 3D printing of crucial metal alloy",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "source_url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?WT.mc_id=20260826_ai-overture-2026-med-med",
+    "title": "The turbulent AI era is here",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://arxiv.org/abs/2408.06602",
+    "source_url": "https://arxiv.org/abs/2408.06602",
+    "title": "Super-intelligence or Superstition? Exploring Psychological Factors Influencing Belief in AI Predictions about Personal Behavior",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-09-23T13:29:20Z",
+    "published_at": "2026-09-23T13:29:20Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+    "source_url": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+    "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/evaleval-aisi",
+    "source_url": "https://huggingface.co/blog/evaleval-aisi",
+    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "title": "Transformers now runs llama.cpp quants",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/omlx",
+    "source_url": "https://huggingface.co/blog/omlx",
+    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+    "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "source_url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/funes",
+    "source_url": "https://huggingface.co/blog/funes",
+    "title": "Give Your Coding Agents a Memory You Own",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/train-to-paint-with-code",
+    "source_url": "https://huggingface.co/blog/train-to-paint-with-code",
+    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/allenai/benchmirt",
+    "source_url": "https://huggingface.co/blog/allenai/benchmirt",
+    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/webgpu-kernels",
+    "source_url": "https://huggingface.co/blog/webgpu-kernels",
+    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "source_url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "title": "Granite 4.2 LLMs: How They're Built",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+    "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+    "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/gradio-workflow-guide",
+    "source_url": "https://huggingface.co/blog/gradio-workflow-guide",
+    "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+    "title": "How Much Memory Does Your Agent Actually Need?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/multi-vector-encoder",
+    "source_url": "https://huggingface.co/blog/multi-vector-encoder",
+    "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "source_url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+    "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "source_url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "source_url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+    "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-09-23T13:29:21Z",
+    "published_at": "2026-09-23T13:29:21Z"
+  }
+]
