@@ -1,0 +1,422 @@
+[
+  {
+    "source": "rss",
+    "source_id": "https://already-clean.goodfire.com/",
+    "source_url": "https://already-clean.goodfire.com/",
+    "title": "Neural Networks Are Already Clean",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+    "source_url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+    "title": "Running RAG with a (small) language model in the browser",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+    "source_url": "https://lobste.rs/s/xff77a/best_books_courses_channels_leapfrog_on",
+    "title": "Best Books/Courses/Channels to Leapfrog on AI/ML Material",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+    "source_url": "https://www.youtube.com/watch?v=Yo4eqoRC1o0",
+    "title": "A Brief Perspective on Deep Learning Using Common Lisp",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://github.com/volotat/mini-AGI/",
+    "source_url": "https://github.com/volotat/mini-AGI/",
+    "title": "A Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "source_url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "title": "ChatGPT now knows what you do on other websites via ad collector",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://spectrum.ieee.org/llms-for-chip-design",
+    "source_url": "https://spectrum.ieee.org/llms-for-chip-design",
+    "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://taggart-tech.com/lying/",
+    "source_url": "https://taggart-tech.com/lying/",
+    "title": "Model Training Incidents are Negligence",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://github.com/enactic/OpenArm",
+    "source_url": "https://github.com/enactic/OpenArm",
+    "title": "openarm: A fully open-source humanoid arm for physical AI research and deployment in contact-rich environments",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "source_url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+    "title": "Why don’t machine learning research agents overfit?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Lobsters AI/ML",
+      "rss_category": "comprehensive"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/torch-neuronx-model-support",
+    "source_url": "https://huggingface.co/blog/torch-neuronx-model-support",
+    "title": "Does Your Model Run on AWS Trainium? Look It Up",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "source_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+    "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/nvidia/kumo-relational",
+    "source_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+    "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+    "source_url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+    "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/hf-torchneuron",
+    "source_url": "https://huggingface.co/blog/hf-torchneuron",
+    "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "source_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+    "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "source_url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "title": "The Agent Said It Was Done. The Database Disagreed.",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "source_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+    "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/Hcompany/holo4",
+    "source_url": "https://huggingface.co/blog/Hcompany/holo4",
+    "title": "Holo4: powering generalist computer-use agents",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/evaleval-aisi",
+    "source_url": "https://huggingface.co/blog/evaleval-aisi",
+    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "source_url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "title": "Transformers now runs llama.cpp quants",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/omlx",
+    "source_url": "https://huggingface.co/blog/omlx",
+    "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "source_url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/funes",
+    "source_url": "https://huggingface.co/blog/funes",
+    "title": "Give Your Coding Agents a Memory You Own",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/train-to-paint-with-code",
+    "source_url": "https://huggingface.co/blog/train-to-paint-with-code",
+    "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/allenai/benchmirt",
+    "source_url": "https://huggingface.co/blog/allenai/benchmirt",
+    "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/webgpu-kernels",
+    "source_url": "https://huggingface.co/blog/webgpu-kernels",
+    "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  },
+  {
+    "source": "rss",
+    "source_id": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "source_url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "description": "",
+    "author": "",
+    "metadata": {
+      "rss_source": "Hugging Face Blog",
+      "rss_category": "company-blog"
+    },
+    "fetched_at": "2026-10-25T13:04:34Z",
+    "published_at": "2026-10-25T13:04:34Z"
+  }
+]
